@@ -238,10 +238,10 @@ Balls.ChildAdded:Connect(function(Ball)
 end)
 end)
 
-KillingCheats:CreateButton("🔒 Auto Clash", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EminenceXLua/Testing/main/Betlog.lua"))()
+MainKillingCheats:CreateButton("⬇️ Buy Premium Features ⬇️", function()
+print("HI")
 end)
 
-KillingCheats:CreateButton("Buy Premium Features: https://discord.com/invite/C2gXhnZhXB", function()
+KillingCheats:CreateButton("https://discord.com/invite/C2gXhnZhXB", function()
 print("HI")
 end)
