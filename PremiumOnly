@@ -242,6 +242,6 @@ MainKillingCheats:CreateButton("⬇️ Buy Premium Features ⬇️", function()
 print("HI")
 end)
 
-KillingCheats:CreateButton("https://discord.com/invite/C2gXhnZhXB", function()
+MainKillingCheats:CreateButton("https://discord.com/invite/C2gXhnZhXB", function()
 print("HI")
 end)
