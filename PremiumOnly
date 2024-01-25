@@ -169,13 +169,9 @@ KillingCheats:CreateButton("Made by Neoncat", function()
 print("PremiumOnlyUser")
 end)
 
-KillingCheats:CreateButton("Premium Only Script!", function()
-print("PremiumOnlyUser")
-end)
+local MainKillingCheats = PhantomForcesWindow:NewSection("💎 Traning Mode")
 
-local MainKillingCheats = PhantomForcesWindow:NewSection("💎 PremiumOnly")
-
-MainKillingCheats:CreateButton("🔒 Auto Parry [TRANING MODE]", function()
+MainKillingCheats:CreateButton("Auto Parry [TRANING MODE]", function()
 local Debug = false -- Set this to true if you want my debug output.
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
