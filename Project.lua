@@ -5,7 +5,7 @@ local PhantomForcesWindow = Library:NewWindow("💎 Neon.C Hub 💎")
 local KillingCheats = PhantomForcesWindow:NewSection("🎯 Combat")
 
 KillingCheats:CreateToggle("Auto Parry", function(value)
-loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-RELIABLE-AUTO-PARRY-8096"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))()
 end)
 
 KillingCheats:CreateToggle("Auto Win", function(value)
